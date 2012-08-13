@@ -1,0 +1,36 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>com.gistlabs.bigdata.littletests.hadoop</groupId>
+  <artifactId>WordCountTests</artifactId>
+  <version>1.0</version>
+  <packaging>jar</packaging>
+
+  <name>com.gistlabs.bigdata.littletests</name>
+  <url>http://maven.apache.org</url>
+  
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+  </properties>
+
+  <dependencies>
+      <dependency>
+          <groupId>org.apache.hadoop</groupId>
+          <artifactId>hadoop-core</artifactId>
+          <version>1.0.3</version>
+      </dependency>
+      
+      <dependency>
+          <groupId>org.apache.hadoop</groupId>
+          <artifactId>hadoop-test</artifactId>
+          <version>1.0.3</version>
+      </dependency>
+      
+      <dependency>
+          <groupId>org.apache.mrunit</groupId>
+          <artifactId>mrunit</artifactId>
+          <version>0.8.0-incubating</version>
+      </dependency>
+  </dependencies>
+</project>
