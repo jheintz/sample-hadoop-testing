@@ -1,3 +1,4 @@
 target/
+build/
 .settings/
 .DS_Store
