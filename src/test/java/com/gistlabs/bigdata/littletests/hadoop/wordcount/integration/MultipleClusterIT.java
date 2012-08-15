@@ -10,9 +10,9 @@ import org.junit.runners.Parameterized.Parameters;
 
 
 @RunWith(value = Parameterized.class)
-public class MultipleClusterTest extends HadoopClusterBase {
+public class MultipleClusterIT extends HadoopClusterBase {
 
-	public MultipleClusterTest(int ignore) {
+	public MultipleClusterIT(int ignore) {
 	}
 
 	@Parameters

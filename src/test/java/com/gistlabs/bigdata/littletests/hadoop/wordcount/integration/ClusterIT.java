@@ -21,7 +21,7 @@ import com.gistlabs.bigdata.littletests.hadoop.wordcount.WordCountMapper;
 import com.gistlabs.bigdata.littletests.hadoop.wordcount.WordCountReducer;
 import com.gistlabs.bigdata.littletests.hadoop.wordcount.WordCountRunner;
 
-public class ClusterTest extends HadoopClusterBase {
+public class ClusterIT extends HadoopClusterBase {
 
 	/**
 	 * Just test the machinery works... startup and shutdown.
