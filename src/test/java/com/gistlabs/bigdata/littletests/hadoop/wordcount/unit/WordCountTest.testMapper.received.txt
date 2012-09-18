@@ -1,0 +1,7 @@
+[cat cat dogg]
+
+ -> maps to -> 
+
+(cat, 1)
+(cat, 1)
+(dogg, 1)
